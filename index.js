@@ -20,7 +20,7 @@ program
                 verticalLayout: 'default',
                 width: 120,
                 whitespaceBreak: true
-            })) + chalk.green('欢迎使用 yutuz cli !\n') + chalk.red('                            ♥') + chalk.rgb(238, 0, 238)(` by 杉菜酱~ https://github.com/coder-fang ©${new Date().getFullYear()}`));
+            })) + chalk.green('欢迎使用 yutuz cli !\n') + chalk.red('                            ♥') + chalk.rgb(238, 0, 238)(` by 杉菜酱 https://github.com/coder-fang ©${new Date().getFullYear()}`));
             // 新增说明信息
             console.log(`\r\n${chalk.bgBlue("yt")} ${chalk.green(`info`)} ${chalk.cyan(`[Core/cli]`)} @yutuz-cli/core@${require('./package.json').version} `)
             console.log(`\rRun ${chalk.blue(`yt <command> --help`)} for details usage of given command. \r\n`)
